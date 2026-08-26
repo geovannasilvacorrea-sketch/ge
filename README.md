@@ -59,4 +59,14 @@ modal.style.display = "block";
 
 function fechaModal() {
 modal.style.display = "none";
+}let btnAjuda = document.querySelector(".botao-ajuda");
+let btnFechar = document.querySelector(".botao-fechar");
+let modal = document.querySelector(".modal-fundo");
+
+function abreModal() {
+    modal.style.display = "block";
+}
+
+function fechaModal() {
+    modal.style.display = "none";
 }
